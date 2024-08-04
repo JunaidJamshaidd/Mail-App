@@ -1,0 +1,129 @@
+.mail{
+    flex: 1;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+}
+.settings > .MuiButtonBase-root{
+    color:#444746;
+
+}
+
+.settings_left,
+.settings_right {
+  display: flex;
+  align-items: center;
+}
+.divider {
+    height: 24px; 
+    width: 1px; 
+    background: linear-gradient(to bottom, #eceff1 0%, #eceff1 100%);
+    margin: 0 16px; 
+  }
+  
+ .mail_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+ } 
+
+ .mail_headerLeft > h2{
+    margin-left: 70px;
+    font-weight: 400;
+    color: #1f1f1f;
+    
+ }
+ .mail_headerRight{
+    margin-right: 8px;
+ }
+
+
+ .mail_actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .mail_actionsLeft{
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+ }
+ .author_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+ }
+
+ .mail_actionsRight{
+    display: flex;
+    align-items: center;
+ }
+ .mail_actionsRight > .MuiSvgIcon-root{
+    color:#5b5e5d;
+ }
+ .receiver{
+    display: flex;
+    align-items: center;
+ }
+
+ .mail_actionsRight > h4{
+    font-weight: 400;
+    font-size: 12px;
+    color: #767676;
+    margin-right: 8px;
+ }
+ .mail_body > p{
+   padding-left: 75px;
+   padding-top: 30px;
+
+ }
+
+ .reply_buttons{
+   display: flex;
+   align-items: center;
+   margin-left: 75px;
+   margin-top: 70px;
+   margin-bottom: 60px;
+
+
+}
+
+.button{
+   display: flex;
+   align-items: center;
+   padding: 6px 20px;
+   border: 1px solid #747775;
+   border-radius: 30px;
+   color: #747775;
+   font-size: 15px;
+   font-weight: 500;
+   margin-right: 15px;
+   cursor: pointer;
+}
+.button > .MuiSvgIcon-root{
+   margin-right: 8px;
+}
+
+.smile{
+   border: 1px solid #747775;
+   border-radius: 50px;
+   padding: 5px 7px;
+   color: #747775;
+}
+
+.button:hover{
+   background-color: rgb(241, 241, 241);
+}
+
+.smile:hover{
+   background-color: rgb(241, 241, 241);
+}

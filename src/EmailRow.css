@@ -1,0 +1,57 @@
+.emailRow{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceff1;
+    height: 40px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.emailRow:hover{
+    box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.24);
+    border-top: 1px solid #eceff1;
+}
+.row_options{
+    display: flex;
+    align-items: center;
+    color: #d4d9de;
+}
+
+
+.star > .MuiButtonBase-root{
+    color: #d4d9de;
+}
+
+.row_message{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    font-size: 13px;
+}
+
+.row_message > h4{
+    text-overflow: ellipsis;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row_title{
+    font-size: 13px;
+    flex: 0.3;
+}
+.row_description{
+    font-weight: 500;
+    color: #767a7e;
+}
+.row_time{
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.gotoMail{
+    display: flex;
+    flex: 1;
+}
